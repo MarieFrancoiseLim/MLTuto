@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "id" : "397dc792-1256-438e-b437-17b35696d3eb",
+    "name" : "Loan risk score",
+    "modified_at" : "2020-11-09T09:17:33.183Z",
+    "created_at" : "2020-11-09T09:17:33.183Z",
+    "owner" : "IBMid-270003DYBF",
+    "space_id" : "5b96c2e8-b038-470e-9c6d-2620160a99de"
+  },
+  "entity" : {
+    "name" : "Loan risk score",
+    "space_id" : "5b96c2e8-b038-470e-9c6d-2620160a99de",
+    "custom" : { },
+    "online" : { },
+    "status" : {
+      "state" : "ready",
+      "online_url" : {
+        "url" : "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/397dc792-1256-438e-b437-17b35696d3eb/predictions"
+      }
+    },
+    "asset" : {
+      "id" : "8b0a352b-486a-4283-88d9-ee1b8e07bafa"
+    }
+  },
+  "name" : "Loan risk score",
+  "status" : "ready",
+  "deployedAt" : "2020-11-09T09:17:33.183Z"
+}

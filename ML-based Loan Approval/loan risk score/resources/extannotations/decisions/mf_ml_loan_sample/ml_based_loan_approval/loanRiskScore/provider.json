@@ -1,0 +1,9 @@
+{
+  "name" : "decisions/MF-ML-Loan-Sample/ml-sample1606471290728",
+  "type" : "WML",
+  "description" : "Provider for the MLStart tutorial answer.",
+  "mlUrl" : "https://us-south.ml.cloud.ibm.com/ml/v4",
+  "authUrl" : "https://iam.bluemix.net/identity/token",
+  "instanceId" : "5b96c2e8-b038-470e-9c6d-2620160a99de",
+  "apiKey" : null
+}

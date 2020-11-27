@@ -1,5 +1,5 @@
 
-package decisions.mf_test13.ml_based_loan_approval.loanRiskScore;
+package decisions.mf_ml_loan_sample.ml_based_loan_approval.loanRiskScore;
 
 
 public class Input
@@ -63,20 +63,21 @@ public class Output
                 property prototype "true";
     public Output()
                 property "dataio.default" "true";
-    public static Output run(decisions.mf_test13.ml_based_loan_approval.loanRiskScore.Input input)
+    public static Output run(decisions.mf_ml_loan_sample.ml_based_loan_approval.loanRiskScore.Input input)
                 property "de.generated" {
                     $gen "com.ibm.decision.ml.integration.client.wml.xom.PredictionCallGenerator",
                     $target "BOM",
                     deploymentId "397dc792-1256-438e-b437-17b35696d3eb",
-                    providerName ""
+                    providerName "decisions/MF-ML-Loan-Sample/ml-sample1606471290728"
                 }
                 property pureFunction "true";
-    public static Output run(com.ibm.decision.run.RunContext runContext, decisions.mf_test13.ml_based_loan_approval.loanRiskScore.Input input)
+    public static Output run(com.ibm.decision.run.RunContext runContext, decisions.mf_ml_loan_sample.ml_based_loan_approval.loanRiskScore.Input input)
                 property "de.generated" {
                     $gen "com.ibm.decision.ml.integration.client.wml.xom.PredictionRunGenerator",
                     $target "BOM",
                     deploymentId "397dc792-1256-438e-b437-17b35696d3eb",
-                    providerName ""
+                    providerName "decisions/MF-ML-Loan-Sample/ml-sample1606471290728"
                 }
                 property pureFunction "true";
 }
+

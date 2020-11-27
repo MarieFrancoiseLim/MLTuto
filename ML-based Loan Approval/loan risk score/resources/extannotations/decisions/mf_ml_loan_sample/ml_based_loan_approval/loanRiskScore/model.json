@@ -1,0 +1,57 @@
+{
+  "metadata" : {
+    "id" : "8b0a352b-486a-4283-88d9-ee1b8e07bafa",
+    "name" : "Risk score",
+    "description" : "ML Start tutorial",
+    "modified_at" : "2020-11-09T09:16:19.789Z",
+    "created_at" : "2020-11-09T09:16:19.789Z",
+    "owner" : "IBMid-270003DYBF",
+    "space_id" : "5b96c2e8-b038-470e-9c6d-2620160a99de"
+  },
+  "entity" : {
+    "type" : "pmml_4.3",
+    "schemas" : {
+      "input" : [ {
+        "id" : "in_1",
+        "fields" : [ {
+          "name" : "creditScore",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "income",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "loanAmount",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "monthDuration",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "rate",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "yearlyReimbursement",
+          "type" : "double",
+          "nullable" : true
+        } ]
+      } ],
+      "output" : [ {
+        "id" : "out_1",
+        "fields" : [ {
+          "name" : "paymentDefault",
+          "type" : "integer",
+          "nullable" : true
+        } ]
+      } ]
+    }
+  },
+  "id" : "8b0a352b-486a-4283-88d9-ee1b8e07bafa",
+  "name" : "Risk score",
+  "description" : "ML Start tutorial",
+  "trainedAt" : "2020-11-09T09:16:19.789Z",
+  "modifiedAt" : "2020-11-09T09:16:19.789Z"
+}
